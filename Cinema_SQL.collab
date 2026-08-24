@@ -1,0 +1,70 @@
+# Query 1: (SELECT, WHERE, ORDER BY) - เลือกเฉพาะการจองที่จ่ายเงินแล้ว (Paid) เรียงตามโรง ตามราคาจากมากไปน้อย
+query1 = """
+    SELECT booking_id, customer_id, movie_name, theater_no, price, status
+    FROM customers
+    WHERE status = 'Paid'
+    ORDER BY theater_no ASC, price DESC
+"""
+print("--- Query 1: รายการจองที่จ่ายเงินแล้ว (Paid) ---")
+display(pd.read_sql_query(query1, conn))
+
+
+# Query 2: (SELECT, WHERE, ORDER BY) - รายการจองที่ไม่สำเร็จทั้งหมด แยกดูตามโรง
+query2 = """
+    SELECT booking_id, customer_id, movie_name, theater_no, seat_number, status
+    FROM customers
+    WHERE status LIKE 'Rejected%'
+    ORDER BY theater_no ASC
+"""
+print("\n--- Query 2: รายการจองที่ไม่สำเร็จทั้งหมด ---")
+display(pd.read_sql_query(query2, conn))
+
+
+# Query 3: (SELECT, WHERE, ORDER BY) - สมาชิก VIP ที่ชำระเงินสำเร็จจากทุกโรง
+query3 = """
+    SELECT booking_id, customer_id, movie_name, member_type, theater_no, seat_type, price
+    FROM customers
+    WHERE member_type = 'VIP' AND status = 'Paid'
+    ORDER BY theater_no ASC, price DESC
+"""
+print("\n--- Query 3: สมาชิก VIP ที่ชำระเงินสำเร็จ ---")
+display(pd.read_sql_query(query3, conn))
+
+
+# Query 4: (GROUP BY + Aggregate) - สรุปจำนวนตั๋ว ยอดขายรวม และราคาเฉลี่ยต่อตั๋ว แยกตามโรงและภาพยนตร์
+query4 = """
+    SELECT 
+        theater_no,
+        movie_name,
+        COUNT(booking_id) AS total_tickets,
+        SUM(price) AS total_revenue,
+        AVG(price) AS average_price
+    FROM customers
+    WHERE status = 'Paid'
+    GROUP BY theater_no, movie_name
+    ORDER BY theater_no ASC
+"""
+print("\n--- Query 4: สรุปยอดขายและจำนวนตั๋ว (GROUP BY + Aggregate) ---")
+display(pd.read_sql_query(query4, conn))
+
+
+# Query 5: (JOIN) - เชื่อมตาราง customers และ movies เพื่อแสดงหมวดหมู่หนัง (genre)
+query5 = """
+    SELECT 
+        customers.booking_id,
+        customers.customer_id,
+        customers.member_type,
+        customers.movie_name,
+        movies.genre,
+        customers.theater_no,
+        customers.seat_number,
+        customers.price,
+        customers.status
+    FROM customers
+    JOIN movies 
+      ON customers.movie_name = movies.movie_name
+    WHERE customers.status = 'Paid'
+    ORDER BY customers.theater_no ASC, customers.booking_id ASC
+"""
+print("\n--- Query 5: ข้อมูลการจองพร้อมหมวดหมู่ภาพยนตร์ (JOIN) ---")
+display(pd.read_sql_query(query5, conn))
