@@ -1,0 +1,50 @@
+-- แสดงข้อมูลลูกค้าและรายการจองทั้งหมด
+SELECT *
+FROM `cinema-sql-506504.customers_cinema.customers`;
+
+-- Query 1: เลือกเฉพาะการจองที่จ่ายเงินแล้ว (Paid) เรียงตามโรง (1, 2, 3) ตามราคาจากมากไปน้อย
+SELECT booking_id, customer_id, movie_name, theater_no, price, status
+FROM `cinema-sql-506504.customers_cinema.customers`
+WHERE status = 'Paid'
+ORDER BY theater_no ASC, price DESC;
+
+-- Query 2: รายการจองที่ไม่สำเร็จทั้งหมด แยกดูตามโรง
+SELECT booking_id, customer_id, movie_name, theater_no, seat_number, status
+FROM `cinema-sql-506504.customers_cinema.customers`
+WHERE status LIKE 'Rejected%'
+ORDER BY theater_no ASC, name ASC;
+
+-- Query 3: สมาชิก VIP ที่ชำระเงินสำเร็จจากทุกโรง
+SELECT booking_id, customer_id, movie_name, member_type, theater_no, seat_type, price
+FROM `cinema-sql-506504.customers_cinema.customers`
+WHERE member_type = 'VIP' AND status = 'Paid'
+ORDER BY theater_no ASC, price DESC;
+
+-- สรุปจำนวนตั๋วที่ขายได้ ยอดขายรวม และราคาเฉลี่ยต่อตั๋ว แยกตามโรงภาพยนตร์และชื่อภาพยนตร์
+SELECT 
+    theater_no,
+    movie_name,
+    COUNT(booking_id) AS total_tickets,
+    SUM(price) AS total_revenue,
+    AVG(price) AS average_price
+FROM `cinema-sql-506504.customers_cinema.customers`
+WHERE status = 'Paid'
+GROUP BY theater_no, movie_name
+ORDER BY theater_no ASC;
+
+-- Query JOIN: เชื่อมตาราง customers และ movies เพื่อแสดงหมวดหมู่หนัง (genre)
+SELECT 
+    customers.booking_id,
+    customers.customer_id,
+    customers.member_type,
+    customers.movie_name,
+    movies.genre,
+    customers.theater_no,
+    customers.seat_number,
+    customers.price,
+    customers.status
+FROM `cinema-sql-506504.customers_cinema.customers` AS customers
+JOIN `cinema-sql-506504.cinema_movies.cinema_movies` AS movies 
+  ON customers.movie_name = movies.movie_name
+WHERE customers.status = 'Paid'
+ORDER BY customers.theater_no ASC, customers.booking_id ASC;
