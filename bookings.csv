@@ -1,0 +1,301 @@
+﻿booking_id,customer_id,movie_name,theater_no,seat_number,seat_type,price,status
+BK001,C001,Avatar 3,1,C9,Deluxe,160.0,Paid
+BK002,C002,Inception,4,B7,Honeymoon,0.0,Cancelled
+BK003,C003,Interstellar,5,C3,Honeymoon,0.0,Cancelled
+BK004,C004,Avatar 3,1,B7,Honeymoon,192.0,Paid
+BK005,C005,Spider-Man,2,D6,Normal,126.0,Paid
+BK006,C006,Interstellar,5,D6,VIP,266.0,Paid
+BK007,C007,Spider-Man,2,D8,Deluxe,220.0,Paid
+BK008,C008,Spider-Man,2,C5,Normal,126.0,Paid
+BK009,C009,Batman,3,F9,Deluxe,168.0,Paid
+BK010,C010,Inception,4,F6,Normal,119.0,Paid
+BK011,C011,Batman,3,E2,VIP,0.0,Cancelled
+BK012,C012,Interstellar,5,F3,Honeymoon,216.0,Paid
+BK013,C013,Batman,3,F8,VIP,312.0,Paid
+BK014,C014,Avatar 3,1,F6,VIP,350.0,Paid
+BK015,C015,Spider-Man,2,F7,Honeymoon,208.0,Paid
+BK016,C016,Inception,4,E5,VIP,0.0,Cancelled
+BK017,C017,Interstellar,5,C2,Honeymoon,189.0,Paid
+BK018,C018,Spider-Man,2,C5,Normal,0.0,Rejected (ที่นั่ง C5 ถูกจองแล้ว (Double Booking))
+BK019,C019,Spider-Man,2,B3,Honeymoon,260.0,Paid
+BK020,C020,Inception,4,F2,Honeymoon,200.0,Paid
+BK021,C021,Spider-Man,2,D10,Deluxe,176.0,Paid
+BK022,C022,Avatar 3,1,D1,Deluxe,200.0,Paid
+BK023,C023,Interstellar,5,A4,Deluxe,0.0,Cancelled
+BK024,C024,Inception,4,E9,VIP,252.0,Paid
+BK025,C025,Inception,4,E8,Normal,170.0,Paid
+BK026,C026,Batman,3,E3,VIP,273.0,Paid
+BK027,C027,Avatar 3,1,C9,VIP,0.0,Rejected (ที่นั่ง C9 ถูกจองแล้ว (Double Booking))
+BK028,C028,Inception,4,C8,Honeymoon,175.0,Paid
+BK029,C029,Avatar 3,1,C8,Deluxe,160.0,Paid
+BK030,C030,Batman,3,D6,Honeymoon,280.0,Paid
+BK031,C031,Batman,3,F10,VIP,312.0,Paid
+BK032,C032,Avatar 3,1,B6,Deluxe,160.0,Paid
+BK033,C033,Avatar 3,1,C10,VIP,245.0,Paid
+BK034,C034,Spider-Man,2,C7,Deluxe,176.0,Paid
+BK035,C035,Interstellar,5,D1,Honeymoon,216.0,Paid
+BK036,C036,Inception,4,E5,Normal,136.0,Paid
+BK037,C037,Spider-Man,2,C4,VIP,259.0,Paid
+BK038,C038,Spider-Man,2,A10,Deluxe,0.0,Cancelled
+BK039,C039,Batman,3,D10,Honeymoon,224.0,Paid
+BK040,C040,Interstellar,5,F7,Honeymoon,216.0,Paid
+BK041,C041,Inception,4,C1,Honeymoon,200.0,Paid
+BK042,C042,Interstellar,5,E8,Honeymoon,270.0,Paid
+BK043,C043,Batman,3,E3,Normal,0.0,Rejected (ที่นั่ง E3 ถูกจองแล้ว (Double Booking))
+BK044,C044,Inception,4,D8,Honeymoon,200.0,Paid
+BK045,C045,Interstellar,5,E5,Honeymoon,0.0,Cancelled
+BK046,C046,Batman,3,A1,VIP,312.0,Paid
+BK047,C047,Spider-Man,2,B8,VIP,370.0,Paid
+BK048,C048,Batman,3,E4,Deluxe,0.0,Cancelled
+BK049,C049,Inception,4,C6,Honeymoon,0.0,Cancelled
+BK050,C050,Spider-Man,2,E10,Normal,180.0,Paid
+BK051,C051,Avatar 3,1,D3,VIP,280.0,Paid
+BK052,C052,Inception,4,A9,Honeymoon,175.0,Paid
+BK053,C053,Avatar 3,1,F10,Honeymoon,192.0,Paid
+BK054,C054,Interstellar,5,B8,Honeymoon,189.0,Paid
+BK055,C055,Inception,4,D9,Honeymoon,175.0,Paid
+BK056,C056,Batman,3,C5,Honeymoon,196.0,Paid
+BK057,C057,Avatar 3,1,E8,VIP,245.0,Paid
+BK058,C058,Batman,3,F7,Honeymoon,196.0,Paid
+BK059,C059,Inception,4,E7,Normal,170.0,Paid
+BK060,C060,Avatar 3,1,C1,VIP,280.0,Paid
+BK061,C061,Avatar 3,1,E9,Deluxe,140.0,Paid
+BK062,C062,Inception,4,D3,VIP,288.0,Paid
+BK063,C063,Interstellar,5,F7,VIP,0.0,Rejected (ที่นั่ง F7 ถูกจองแล้ว (Double Booking))
+BK064,C064,Avatar 3,1,E3,Honeymoon,168.0,Paid
+BK065,C065,Batman,3,C3,VIP,312.0,Paid
+BK066,C066,Batman,3,A6,Normal,200.0,Paid
+BK067,C067,Spider-Man,2,E3,VIP,370.0,Paid
+BK068,C068,Inception,4,E8,Deluxe,0.0,Rejected (ที่นั่ง E8 ถูกจองแล้ว (Double Booking))
+BK069,C069,Interstellar,5,A1,Honeymoon,270.0,Paid
+BK070,C070,Inception,4,B8,Normal,119.0,Paid
+BK071,C071,Inception,4,F4,VIP,360.0,Paid
+BK072,C072,Batman,3,E2,VIP,273.0,Paid
+BK073,C073,Inception,4,F3,Deluxe,210.0,Paid
+BK074,C074,Batman,3,F3,VIP,273.0,Paid
+BK075,C075,Spider-Man,2,F8,Honeymoon,182.0,Paid
+BK076,C076,Avatar 3,1,F7,Normal,0.0,Cancelled
+BK077,C077,Avatar 3,1,A10,Normal,112.0,Paid
+BK078,C078,Inception,4,B8,Honeymoon,0.0,Rejected (ที่นั่ง B8 ถูกจองแล้ว (Double Booking))
+BK079,C079,Batman,3,A3,Normal,200.0,Paid
+BK080,C080,Batman,3,A4,Deluxe,192.0,Paid
+BK081,C081,Interstellar,5,B4,VIP,266.0,Paid
+BK082,C082,Avatar 3,1,C6,Honeymoon,240.0,Paid
+BK083,C083,Inception,4,E9,VIP,0.0,Rejected (ที่นั่ง E9 ถูกจองแล้ว (Double Booking))
+BK084,C084,Spider-Man,2,D7,Normal,144.0,Paid
+BK085,C085,Interstellar,5,D6,Normal,0.0,Rejected (ที่นั่ง D6 ถูกจองแล้ว (Double Booking))
+BK086,C086,Spider-Man,2,B6,VIP,259.0,Paid
+BK087,C087,Inception,4,A10,VIP,360.0,Paid
+BK088,C088,Inception,4,A5,Deluxe,168.0,Paid
+BK089,C089,Batman,3,D6,Honeymoon,0.0,Rejected (ที่นั่ง D6 ถูกจองแล้ว (Double Booking))
+BK090,C090,Avatar 3,1,A2,VIP,0.0,Cancelled
+BK091,C091,Interstellar,5,D6,Normal,0.0,Rejected (ที่นั่ง D6 ถูกจองแล้ว (Double Booking))
+BK092,C092,Avatar 3,1,F3,Deluxe,160.0,Paid
+BK093,C093,Inception,4,B1,VIP,360.0,Paid
+BK094,C094,Avatar 3,1,F3,Normal,0.0,Rejected (ที่นั่ง F3 ถูกจองแล้ว (Double Booking))
+BK095,C095,Avatar 3,1,F9,Normal,128.0,Paid
+BK096,C096,Inception,4,F5,Normal,119.0,Paid
+BK097,C097,Batman,3,D1,VIP,390.0,Paid
+BK098,C098,Interstellar,5,E10,Honeymoon,189.0,Paid
+BK099,C099,Interstellar,5,B4,Honeymoon,0.0,Rejected (ที่นั่ง B4 ถูกจองแล้ว (Double Booking))
+BK100,C100,Spider-Man,2,C3,Honeymoon,260.0,Paid
+BK101,C101,Avatar 3,1,F3,Deluxe,0.0,Rejected (ที่นั่ง F3 ถูกจองแล้ว (Double Booking))
+BK102,C102,Spider-Man,2,B9,VIP,296.0,Paid
+BK103,C103,Spider-Man,2,C10,VIP,296.0,Paid
+BK104,C104,Inception,4,D8,VIP,0.0,Rejected (ที่นั่ง D8 ถูกจองแล้ว (Double Booking))
+BK105,C105,Interstellar,5,B7,Deluxe,184.0,Paid
+BK106,C106,Spider-Man,2,C10,Normal,0.0,Rejected (ที่นั่ง C10 ถูกจองแล้ว (Double Booking))
+BK107,C107,Inception,4,F5,Normal,0.0,Rejected (ที่นั่ง F5 ถูกจองแล้ว (Double Booking))
+BK108,C108,Batman,3,E1,Deluxe,192.0,Paid
+BK109,C109,Spider-Man,2,D3,Deluxe,154.0,Paid
+BK110,C110,Inception,4,B3,VIP,288.0,Paid
+BK111,C111,Batman,3,C9,Deluxe,240.0,Paid
+BK112,C112,Spider-Man,2,B5,VIP,0.0,Cancelled
+BK113,C113,Inception,4,A10,Deluxe,0.0,Rejected (ที่นั่ง A10 ถูกจองแล้ว (Double Booking))
+BK114,C114,Batman,3,C2,VIP,390.0,Paid
+BK115,C115,Avatar 3,1,A7,Deluxe,160.0,Paid
+BK116,C116,Interstellar,5,C2,VIP,0.0,Rejected (ที่นั่ง C2 ถูกจองแล้ว (Double Booking))
+BK117,C117,Inception,4,E6,Honeymoon,250.0,Paid
+BK118,C118,Avatar 3,1,E10,Deluxe,140.0,Paid
+BK119,C119,Batman,3,F9,VIP,0.0,Rejected (ที่นั่ง F9 ถูกจองแล้ว (Double Booking))
+BK120,C120,Avatar 3,1,B2,Deluxe,0.0,Cancelled
+BK121,C121,Batman,3,E4,Honeymoon,0.0,Cancelled
+BK122,C122,Avatar 3,1,D2,Honeymoon,192.0,Paid
+BK123,C123,Spider-Man,2,D5,Honeymoon,182.0,Paid
+BK124,C124,Avatar 3,1,A1,VIP,245.0,Paid
+BK125,C125,Spider-Man,2,C8,Normal,126.0,Paid
+BK126,C126,Batman,3,B2,Normal,160.0,Paid
+BK127,C127,Avatar 3,1,C5,Normal,160.0,Paid
+BK128,C128,Interstellar,5,B2,Deluxe,230.0,Paid
+BK129,C129,Avatar 3,1,C10,VIP,0.0,Rejected (ที่นั่ง C10 ถูกจองแล้ว (Double Booking))
+BK130,C130,Spider-Man,2,B4,Normal,126.0,Paid
+BK131,C131,Spider-Man,2,D1,Honeymoon,182.0,Paid
+BK132,C132,Spider-Man,2,F4,VIP,370.0,Paid
+BK133,C133,Avatar 3,1,E9,Normal,0.0,Rejected (ที่นั่ง E9 ถูกจองแล้ว (Double Booking))
+BK134,C134,Avatar 3,1,E7,Normal,112.0,Paid
+BK135,C135,Inception,4,E2,Honeymoon,200.0,Paid
+BK136,C136,Inception,4,F6,Normal,0.0,Rejected (ที่นั่ง F6 ถูกจองแล้ว (Double Booking))
+BK137,C137,Avatar 3,1,C5,Normal,0.0,Rejected (ที่นั่ง C5 ถูกจองแล้ว (Double Booking))
+BK138,C138,Interstellar,5,F10,Deluxe,184.0,Paid
+BK139,C139,Inception,4,E6,Normal,0.0,Rejected (ที่นั่ง E6 ถูกจองแล้ว (Double Booking))
+BK140,C140,Inception,4,E5,Normal,0.0,Rejected (ที่นั่ง E5 ถูกจองแล้ว (Double Booking))
+BK141,C141,Spider-Man,2,B3,Normal,0.0,Rejected (ที่นั่ง B3 ถูกจองแล้ว (Double Booking))
+BK142,C142,Batman,3,E7,Deluxe,168.0,Paid
+BK143,C143,Batman,3,D10,VIP,0.0,Rejected (ที่นั่ง D10 ถูกจองแล้ว (Double Booking))
+BK144,C144,Batman,3,C10,Deluxe,168.0,Paid
+BK145,C145,Interstellar,5,E7,Normal,152.0,Paid
+BK146,C146,Interstellar,5,D7,Honeymoon,270.0,Paid
+BK147,C147,Batman,3,B1,Honeymoon,196.0,Paid
+BK148,C148,Spider-Man,2,C8,Honeymoon,0.0,Rejected (ที่นั่ง C8 ถูกจองแล้ว (Double Booking))
+BK149,C149,Interstellar,5,E2,VIP,304.0,Paid
+BK150,C150,Inception,4,F7,Honeymoon,250.0,Paid
+BK151,C151,Spider-Man,2,D3,Honeymoon,0.0,Rejected (ที่นั่ง D3 ถูกจองแล้ว (Double Booking))
+BK152,C152,Interstellar,5,D3,VIP,0.0,Cancelled
+BK153,C153,Inception,4,D7,Honeymoon,250.0,Paid
+BK154,C154,Avatar 3,1,C7,Honeymoon,192.0,Paid
+BK155,C155,Batman,3,C9,Deluxe,0.0,Rejected (ที่นั่ง C9 ถูกจองแล้ว (Double Booking))
+BK156,C156,Batman,3,F1,Normal,140.0,Paid
+BK157,C157,Avatar 3,1,E1,Deluxe,0.0,Cancelled
+BK158,C158,Avatar 3,1,F10,Normal,0.0,Rejected (ที่นั่ง F10 ถูกจองแล้ว (Double Booking))
+BK159,C159,Batman,3,F6,Normal,200.0,Paid
+BK160,C160,Avatar 3,1,E6,Honeymoon,168.0,Paid
+BK161,C161,Inception,4,D6,VIP,288.0,Paid
+BK162,C162,Inception,4,F2,Deluxe,0.0,Rejected (ที่นั่ง F2 ถูกจองแล้ว (Double Booking))
+BK163,C163,Avatar 3,1,C5,VIP,0.0,Rejected (ที่นั่ง C5 ถูกจองแล้ว (Double Booking))
+BK164,C164,Inception,4,D10,Normal,0.0,Cancelled
+BK165,C165,Avatar 3,1,D10,Deluxe,140.0,Paid
+BK166,C166,Avatar 3,1,B6,Honeymoon,0.0,Rejected (ที่นั่ง B6 ถูกจองแล้ว (Double Booking))
+BK167,C167,Inception,4,F6,Deluxe,0.0,Rejected (ที่นั่ง F6 ถูกจองแล้ว (Double Booking))
+BK168,C168,Interstellar,5,C2,Normal,0.0,Rejected (ที่นั่ง C2 ถูกจองแล้ว (Double Booking))
+BK169,C169,Inception,4,C4,Normal,136.0,Paid
+BK170,C170,Batman,3,D6,Deluxe,0.0,Rejected (ที่นั่ง D6 ถูกจองแล้ว (Double Booking))
+BK171,C171,Interstellar,5,A6,Honeymoon,189.0,Paid
+BK172,C172,Spider-Man,2,B2,Deluxe,220.0,Paid
+BK173,C173,Interstellar,5,D6,Deluxe,0.0,Rejected (ที่นั่ง D6 ถูกจองแล้ว (Double Booking))
+BK174,C174,Inception,4,B5,VIP,360.0,Paid
+BK175,C175,Inception,4,B5,Honeymoon,0.0,Rejected (ที่นั่ง B5 ถูกจองแล้ว (Double Booking))
+BK176,C176,Interstellar,5,E5,Honeymoon,0.0,Cancelled
+BK177,C177,Interstellar,5,D2,Normal,133.0,Paid
+BK178,C178,Batman,3,A3,Honeymoon,0.0,Rejected (ที่นั่ง A3 ถูกจองแล้ว (Double Booking))
+BK179,C179,Batman,3,D2,Normal,140.0,Paid
+BK180,C180,Spider-Man,2,F8,Honeymoon,0.0,Rejected (ที่นั่ง F8 ถูกจองแล้ว (Double Booking))
+BK181,C181,Avatar 3,1,A4,Honeymoon,240.0,Paid
+BK182,C182,Batman,3,C10,Deluxe,0.0,Rejected (ที่นั่ง C10 ถูกจองแล้ว (Double Booking))
+BK183,C183,Inception,4,F9,Normal,119.0,Paid
+BK184,C184,Inception,4,D6,Deluxe,0.0,Rejected (ที่นั่ง D6 ถูกจองแล้ว (Double Booking))
+BK185,C185,Batman,3,D7,Normal,160.0,Paid
+BK186,C186,Avatar 3,1,E9,Deluxe,0.0,Rejected (ที่นั่ง E9 ถูกจองแล้ว (Double Booking))
+BK187,C187,Spider-Man,2,E2,VIP,296.0,Paid
+BK188,C188,Inception,4,B3,VIP,0.0,Rejected (ที่นั่ง B3 ถูกจองแล้ว (Double Booking))
+BK189,C189,Interstellar,5,F6,VIP,380.0,Paid
+BK190,C190,Interstellar,5,A5,Honeymoon,216.0,Paid
+BK191,C191,Batman,3,B10,Deluxe,192.0,Paid
+BK192,C192,Spider-Man,2,Z99,Normal,0.0,Rejected (ที่นั่ง Z99 ไม่มีอยู่ในระบบ (Invalid Seat))
+BK193,C193,Batman,3,D2,Normal,0.0,Rejected (ที่นั่ง D2 ถูกจองแล้ว (Double Booking))
+BK194,C194,Spider-Man,2,F6,Deluxe,220.0,Paid
+BK195,C195,Inception,4,F1,Deluxe,168.0,Paid
+BK196,C196,Spider-Man,2,E7,Honeymoon,260.0,Paid
+BK197,C197,Interstellar,5,F3,Honeymoon,0.0,Rejected (ที่นั่ง F3 ถูกจองแล้ว (Double Booking))
+BK198,C198,Interstellar,5,B3,Normal,152.0,Paid
+BK199,C199,Batman,3,E10,Honeymoon,196.0,Paid
+BK200,C200,Interstellar,5,E1,VIP,380.0,Paid
+BK201,C201,Batman,3,B2,Normal,0.0,Rejected (ที่นั่ง B2 ถูกจองแล้ว (Double Booking))
+BK202,C202,Batman,3,D2,Deluxe,0.0,Rejected (ที่นั่ง D2 ถูกจองแล้ว (Double Booking))
+BK203,C203,Interstellar,5,E6,VIP,380.0,Paid
+BK204,C204,Interstellar,5,C10,Honeymoon,216.0,Paid
+BK205,C205,Inception,4,F7,Normal,0.0,Rejected (ที่นั่ง F7 ถูกจองแล้ว (Double Booking))
+BK206,C206,Spider-Man,2,D7,Deluxe,0.0,Rejected (ที่นั่ง D7 ถูกจองแล้ว (Double Booking))
+BK207,C207,Spider-Man,2,E8,VIP,370.0,Paid
+BK208,C208,Batman,3,C9,Honeymoon,0.0,Rejected (ที่นั่ง C9 ถูกจองแล้ว (Double Booking))
+BK209,C209,Spider-Man,2,B5,Honeymoon,208.0,Paid
+BK210,C210,Spider-Man,2,F2,Normal,0.0,Cancelled
+BK211,C211,Batman,3,E2,Normal,0.0,Rejected (ที่นั่ง E2 ถูกจองแล้ว (Double Booking))
+BK212,C212,Avatar 3,1,F5,Honeymoon,192.0,Paid
+BK213,C213,Spider-Man,2,A9,Normal,144.0,Paid
+BK214,C214,Spider-Man,2,F6,Honeymoon,0.0,Rejected (ที่นั่ง F6 ถูกจองแล้ว (Double Booking))
+BK215,C215,Inception,4,C3,VIP,360.0,Paid
+BK216,C216,Batman,3,E10,VIP,0.0,Rejected (ที่นั่ง E10 ถูกจองแล้ว (Double Booking))
+BK217,C217,Batman,3,F8,Deluxe,0.0,Rejected (ที่นั่ง F8 ถูกจองแล้ว (Double Booking))
+BK218,C218,Inception,4,E7,Deluxe,0.0,Rejected (ที่นั่ง E7 ถูกจองแล้ว (Double Booking))
+BK219,C219,Batman,3,A10,Normal,200.0,Paid
+BK220,C220,Spider-Man,2,C7,Deluxe,0.0,Rejected (ที่นั่ง C7 ถูกจองแล้ว (Double Booking))
+BK221,C221,Interstellar,5,D5,Deluxe,184.0,Paid
+BK222,C222,Avatar 3,1,A9,Normal,112.0,Paid
+BK223,C223,Interstellar,5,F2,Honeymoon,216.0,Paid
+BK224,C224,Avatar 3,1,D7,Deluxe,140.0,Paid
+BK225,C225,Inception,4,C8,VIP,0.0,Rejected (ที่นั่ง C8 ถูกจองแล้ว (Double Booking))
+BK226,C226,Avatar 3,1,B4,Normal,160.0,Paid
+BK227,C227,Batman,3,C2,Honeymoon,0.0,Rejected (ที่นั่ง C2 ถูกจองแล้ว (Double Booking))
+BK228,C228,Avatar 3,1,E9,VIP,0.0,Rejected (ที่นั่ง E9 ถูกจองแล้ว (Double Booking))
+BK229,C229,Inception,4,E2,Normal,0.0,Rejected (ที่นั่ง E2 ถูกจองแล้ว (Double Booking))
+BK230,C230,Batman,3,A1,Normal,0.0,Rejected (ที่นั่ง A1 ถูกจองแล้ว (Double Booking))
+BK231,C231,Avatar 3,1,E3,Normal,0.0,Rejected (ที่นั่ง E3 ถูกจองแล้ว (Double Booking))
+BK232,C232,Inception,4,A5,VIP,0.0,Rejected (ที่นั่ง A5 ถูกจองแล้ว (Double Booking))
+BK233,C233,Spider-Man,2,A9,Deluxe,0.0,Rejected (ที่นั่ง A9 ถูกจองแล้ว (Double Booking))
+BK234,C234,Avatar 3,1,E3,Normal,0.0,Rejected (ที่นั่ง E3 ถูกจองแล้ว (Double Booking))
+BK235,C235,Batman,3,D10,VIP,0.0,Rejected (ที่นั่ง D10 ถูกจองแล้ว (Double Booking))
+BK236,C236,Batman,3,D9,Deluxe,168.0,Paid
+BK237,C237,Interstellar,5,F1,Honeymoon,189.0,Paid
+BK238,C238,Interstellar,5,E4,Deluxe,184.0,Paid
+BK239,C239,Interstellar,5,E10,Deluxe,0.0,Rejected (ที่นั่ง E10 ถูกจองแล้ว (Double Booking))
+BK240,C240,Batman,3,B10,Honeymoon,0.0,Rejected (ที่นั่ง B10 ถูกจองแล้ว (Double Booking))
+BK241,C241,Batman,3,A9,Deluxe,0.0,Cancelled
+BK242,C242,Spider-Man,2,F4,VIP,0.0,Rejected (ที่นั่ง F4 ถูกจองแล้ว (Double Booking))
+BK243,C243,Inception,4,C4,Normal,0.0,Rejected (ที่นั่ง C4 ถูกจองแล้ว (Double Booking))
+BK244,C244,Avatar 3,1,F9,Deluxe,0.0,Rejected (ที่นั่ง F9 ถูกจองแล้ว (Double Booking))
+BK245,C245,Spider-Man,2,E9,Normal,180.0,Paid
+BK246,C246,Batman,3,C5,Normal,0.0,Rejected (ที่นั่ง C5 ถูกจองแล้ว (Double Booking))
+BK247,C247,Avatar 3,1,C7,Deluxe,0.0,Rejected (ที่นั่ง C7 ถูกจองแล้ว (Double Booking))
+BK248,C248,Inception,4,D5,Normal,136.0,Paid
+BK249,C249,Batman,3,C9,Normal,0.0,Rejected (ที่นั่ง C9 ถูกจองแล้ว (Double Booking))
+BK250,C250,Avatar 3,1,E5,VIP,245.0,Paid
+BK251,C251,Spider-Man,2,A3,Deluxe,154.0,Paid
+BK252,C252,Batman,3,C4,Honeymoon,224.0,Paid
+BK253,C253,Inception,4,D3,Normal,0.0,Rejected (ที่นั่ง D3 ถูกจองแล้ว (Double Booking))
+BK254,C254,Inception,4,A7,VIP,252.0,Paid
+BK255,C255,Interstellar,5,D9,VIP,380.0,Paid
+BK256,C256,Batman,3,A6,Deluxe,0.0,Rejected (ที่นั่ง A6 ถูกจองแล้ว (Double Booking))
+BK257,C257,Batman,3,F3,VIP,0.0,Rejected (ที่นั่ง F3 ถูกจองแล้ว (Double Booking))
+BK258,C258,Avatar 3,1,A4,Normal,0.0,Rejected (ที่นั่ง A4 ถูกจองแล้ว (Double Booking))
+BK259,C259,Spider-Man,2,D1,VIP,0.0,Rejected (ที่นั่ง D1 ถูกจองแล้ว (Double Booking))
+BK260,C260,Spider-Man,2,D3,Normal,0.0,Rejected (ที่นั่ง D3 ถูกจองแล้ว (Double Booking))
+BK261,C261,Spider-Man,2,B2,Honeymoon,0.0,Rejected (ที่นั่ง B2 ถูกจองแล้ว (Double Booking))
+BK262,C262,Avatar 3,1,B2,Deluxe,140.0,Paid
+BK263,C263,Batman,3,B9,Honeymoon,196.0,Paid
+BK264,C264,Spider-Man,2,D2,VIP,370.0,Paid
+BK265,C265,Interstellar,5,F6,Honeymoon,0.0,Rejected (ที่นั่ง F6 ถูกจองแล้ว (Double Booking))
+BK266,C266,Inception,4,A6,Normal,136.0,Paid
+BK267,C267,Spider-Man,2,E2,VIP,0.0,Rejected (ที่นั่ง E2 ถูกจองแล้ว (Double Booking))
+BK268,C268,Interstellar,5,A5,Deluxe,0.0,Rejected (ที่นั่ง A5 ถูกจองแล้ว (Double Booking))
+BK269,C269,Avatar 3,1,E2,Normal,128.0,Paid
+BK270,C270,Interstellar,5,F2,VIP,0.0,Rejected (ที่นั่ง F2 ถูกจองแล้ว (Double Booking))
+BK271,C271,Avatar 3,1,E8,VIP,0.0,Rejected (ที่นั่ง E8 ถูกจองแล้ว (Double Booking))
+BK272,C272,Spider-Man,2,B10,VIP,370.0,Paid
+BK273,C273,Batman,3,B4,Deluxe,240.0,Paid
+BK274,C274,Avatar 3,1,F8,Deluxe,140.0,Paid
+BK275,C275,Batman,3,A6,Deluxe,0.0,Rejected (ที่นั่ง A6 ถูกจองแล้ว (Double Booking))
+BK276,C276,Inception,4,B9,Deluxe,168.0,Paid
+BK277,C277,Interstellar,5,A7,Deluxe,184.0,Paid
+BK278,C278,Spider-Man,2,D9,Deluxe,176.0,Paid
+BK279,C279,Avatar 3,1,E6,Honeymoon,0.0,Rejected (ที่นั่ง E6 ถูกจองแล้ว (Double Booking))
+BK280,C280,Avatar 3,1,F1,Deluxe,140.0,Paid
+BK281,C281,Spider-Man,2,A4,VIP,259.0,Paid
+BK282,C282,Spider-Man,2,C3,VIP,0.0,Rejected (ที่นั่ง C3 ถูกจองแล้ว (Double Booking))
+BK283,C283,Interstellar,5,C10,Honeymoon,0.0,Rejected (ที่นั่ง C10 ถูกจองแล้ว (Double Booking))
+BK284,C284,Avatar 3,1,E8,Deluxe,0.0,Rejected (ที่นั่ง E8 ถูกจองแล้ว (Double Booking))
+BK285,C285,Interstellar,5,F5,Normal,133.0,Paid
+BK286,C286,Interstellar,5,B3,Normal,0.0,Rejected (ที่นั่ง B3 ถูกจองแล้ว (Double Booking))
+BK287,C287,Spider-Man,2,F4,Deluxe,0.0,Rejected (ที่นั่ง F4 ถูกจองแล้ว (Double Booking))
+BK288,C288,Avatar 3,1,A7,VIP,0.0,Rejected (ที่นั่ง A7 ถูกจองแล้ว (Double Booking))
+BK289,C289,Interstellar,5,F6,Honeymoon,0.0,Rejected (ที่นั่ง F6 ถูกจองแล้ว (Double Booking))
+BK290,C290,Interstellar,5,F5,Honeymoon,0.0,Rejected (ที่นั่ง F5 ถูกจองแล้ว (Double Booking))
+BK291,C291,Spider-Man,2,A9,Honeymoon,0.0,Rejected (ที่นั่ง A9 ถูกจองแล้ว (Double Booking))
+BK292,C292,Batman,3,A8,Normal,200.0,Paid
+BK293,C293,Batman,3,C1,VIP,390.0,Paid
+BK294,C294,Spider-Man,2,F4,Normal,0.0,Rejected (ที่นั่ง F4 ถูกจองแล้ว (Double Booking))
+BK295,C295,Batman,3,C9,Honeymoon,0.0,Rejected (ที่นั่ง C9 ถูกจองแล้ว (Double Booking))
+BK296,C296,Inception,4,D10,Deluxe,168.0,Paid
+BK297,C297,Interstellar,5,F5,VIP,0.0,Rejected (ที่นั่ง F5 ถูกจองแล้ว (Double Booking))
+BK298,C298,Inception,4,F8,Normal,136.0,Paid
+BK299,C299,Batman,3,A8,VIP,0.0,Rejected (ที่นั่ง A8 ถูกจองแล้ว (Double Booking))
+BK300,C300,Interstellar,5,F6,Honeymoon,0.0,Rejected (ที่นั่ง F6 ถูกจองแล้ว (Double Booking))
